@@ -7,9 +7,11 @@
     <title>Afinafam</title>
 </head>
 <body>
-    <a href="#">
-        <img src="https://moiseshernandez26.github.io/afinafam-policity/image.jpg" alt="policity">
-    </a>
+    <div class="container">
+        <a href="#">
+            <img src="https://moiseshernandez26.github.io/afinafam-policity/image.jpg" alt="policity" class="image-policity">
+        </a>
+    </div>
 
     <script>
         document.addEventListener('DOMContentLoaded', function() {
@@ -17,5 +19,17 @@
             img.click();
         })
     </script>
+
+    <style>
+        .container {
+            width: 100vw;
+            height: 100vh;
+        }
+
+        .image-policity {
+            width: 100%;
+            height: 100%;
+        }
+    </style>
 </body>
 </html>
